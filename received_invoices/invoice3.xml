@@ -1,0 +1,20 @@
+<i:Invoice xmlns:i="ns:invoice" xmlns:a="ns:amount" xmlns:t="ns:totals" xmlns:r="ns:row" xmlns:q="ns:quantity" xmlns:p="ns:price">
+  <t:Totals>
+    <a:Amount/>
+  </t:Totals>
+  <r:Row>
+    <q:Quantity>80</q:Quantity>
+    <p:UnitPrice>1.22498</p:UnitPrice>
+    <a:Amount>98.00</a:Amount>
+  </r:Row>
+  <r:Row>
+    <q:Quantity>-160</q:Quantity>
+    <p:UnitPrice>0.306245</p:UnitPrice>
+    <a:Amount>-48.99</a:Amount>
+  </r:Row>
+  <r:Row>
+    <q:Quantity>10.00</q:Quantity>
+    <p:UnitPrice>10.00</p:UnitPrice>
+    <a:Amount>100.00</a:Amount>
+  </r:Row>
+</i:Invoice>

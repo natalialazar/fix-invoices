@@ -1,0 +1,2 @@
+class BadXMLFormat(Exception):
+    pass
