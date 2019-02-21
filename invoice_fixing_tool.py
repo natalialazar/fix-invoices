@@ -11,7 +11,6 @@ def get_invoices_from_directory(directory):
 
 
 if __name__ == '__main__':
-    import ipdb; ipdb.set_trace()
     argv.pop(0)
     if len(argv) < 1:
         raise SystemExit("USAGE: invoice_fixing_tool <input folder> [<output folder>]")
