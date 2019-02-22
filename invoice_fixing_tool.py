@@ -23,4 +23,4 @@ if __name__ == '__main__':
     invoices = get_invoices_from_directory(input_folder)
     for invoice_file_path in invoices:
         invoice_xml_processor = InvoiceXMLProcessor(invoice_file_path, output_folder)
-        invoice_xml_processor.fix_invoice_amounts()
+        invoice_xml_processor.fix_invoice_write_output()
