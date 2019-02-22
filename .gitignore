@@ -5,3 +5,7 @@
 # IDE Files #
 #############
 .idea
+
+# Output files #
+################
+received_invoices/fixed/
