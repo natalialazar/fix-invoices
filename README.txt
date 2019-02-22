@@ -10,14 +10,14 @@ Attached are a few examples you can work with.
 
 You can make any kind of an implementation you want, in the language of your choice.
 
-### Running the processor against the given samples:
-```bash
+## Running the processor against the given samples:
+```
 # from the root folder of the project run
 python invoice_fixing_tool.py received_invoices
 ```
 
-### Running the tests:
-```bash
+## Running the tests:
+```
 # from the root folder of the project run
 python -m unittest discover
 ```
